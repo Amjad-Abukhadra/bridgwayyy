@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CompanyController;
+use App\Http\Controllers\IntershipController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,3 +21,6 @@ Route::get('/profile', function () {
 Route::get('/post', function () {
     return view('company/post');
 });
+
+Route::post('/company/profile', [CompanyController::class, 'ProfileForm'])->name('company.profile');
+Route::post('/company/post', [IntershipController::class, 'Post'])->name('internship.post');

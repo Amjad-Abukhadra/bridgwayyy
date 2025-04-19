@@ -10,10 +10,10 @@
       </div>
       <span class="heading">Main</span>
       <ul class="list-unstyled">
-              <li class="active"><a href="company/profile"> <i class="fa-solid fa-circle-user"></i>PROFILE </a></li>
-              <li><a href="company/post"> <i class="fa-solid fa-file"></i> POST </a></li>
-              <li><a href="company/applications"> <i class="fa fa-bar-chart"></i>APPLICATIONS </a></li>
-              <li><a href="company/feedback"> <i class="icon-padnote"></i>FEEDBACK </a></li>
+              <li><a href="profile"> <i class="fa-solid fa-circle-user"></i>PROFILE </a></li>
+              <li><a href="post"> <i class="fa-solid fa-file"></i> POST </a></li>
+              <li><a href="applications"> <i class="fa fa-bar-chart"></i>APPLICATIONS </a></li>
+              <li><a href="feedback"> <i class="icon-padnote"></i>FEEDBACK </a></li>
               <li><a href="login.html"> <i class="icon-logout"></i>Logout page </a></li>
       </ul>
       
